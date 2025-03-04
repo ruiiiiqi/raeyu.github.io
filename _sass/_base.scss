@@ -789,7 +789,7 @@ footer.sticky-bottom {
 
       .links {
         a.btn {
-          color: var(--global-text-color);
+          color: var(--global-theme-color);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
@@ -870,6 +870,83 @@ footer.sticky-bottom {
     }
   }
 }
+
+// Working Papers
+
+.working-papers {
+  margin-top: 2rem;
+
+  h1 {
+    color: var(--global-theme-color);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .paper {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    background-color: var(--global-card-bg-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      font-size: 1.5rem;
+      color: var(--global-theme-color);
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: var(--global-text-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .authors {
+      font-weight: bold;
+      color: var(--global-text-color-light);
+    }
+
+    .abstract {
+      color: var(--global-text-color);
+      background: var(--global-bg-color);
+      padding: 1rem;
+      border-radius: 5px;
+      border-left: 3px solid var(--global-theme-color);
+      margin-bottom: 1rem;
+    }
+
+    .links {
+      display: flex;
+      gap: 10px;
+      margin-top: 1rem;
+
+      a.btn {
+        color: white;
+        background-color: var(--global-theme-color);
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          background-color: var(--global-highlight-color);
+        }
+      }
+    }
+
+    hr {
+      margin-top: 1.5rem;
+      border: 0;
+      height: 1px;
+      background-color: var(--global-divider-color);
+    }
+  }
+}
+
 
 // Rouge Color Customization
 figure.highlight {
