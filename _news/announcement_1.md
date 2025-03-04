@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Will present in Invited Paper Session "Regression Discontinuity Designs with Complex Data" in Joint Statistical Meeting, 2025. See you in Nashville!
+Will present in Invited Paper Session "Regression Discontinuity Designs with Complex Data" in Joint Statistical Meeting, 2025. See you in Nashville.
